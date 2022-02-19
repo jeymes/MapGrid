@@ -8,96 +8,139 @@ export default () => {
             <J.CardsContainer>
 
                 <J.Cards>
-                    <div>
-                        <h4>NECESSIDADE</h4>
-                    </div>
+                    <J.ContainerForm>
+                        <div className="TituloBlu">
+                            <h4>NECESSIDADE</h4>
+                        </div>
 
-                    <div>
-                        <p>PERCEBER NECESSIDADE</p>
+                        <div>
+                            <p className="SubTituloBlu">PERCEBER NECESSIDADE</p>
 
-                        <form action="text" method="post">
-                            "Não há ninguém que ame a dor por si só,
-                            que a busque e queira tê-la,
-                            simplesmente por ser dor..."
-                        </form>
-                    </div>
+                            <form className="FormArrowGraf" action="text" method="post">
+
+                                <span>
+                                    <img src="https://disruptex.co/wp-content/uploads/2019/03/Disruptex-Icons-02.png" alt="" />
+                                    <p>
+                                        "Não há ninguém que ame a dor por si só,
+                                        que a busque e queira tê-la,
+                                        simplesmente por ser dor..."
+                                    </p>
+                                </span>
+                            </form>
+                        </div>
+                    </J.ContainerForm>
 
                 </J.Cards>
 
                 <J.Cards>
-                    <div>
-                        <h4>DESCOBERTA</h4>
-                    </div>
+                    <J.ContainerForm>
+                        <div className="TituloYellow">
+                            <h4>DESCOBERTA</h4>
+                        </div>
 
-                    <div>
-                        <p>AWARE</p>
+                        <div>
+                            <p className="SubTituloYellow">AWARE</p>
 
-                        <form action="text" method="post">
-                            "Não há ninguém que ame a dor por si só,
-                            que a busque e queira tê-la,
-                            simplesmente por ser dor..."
-                        </form>
-                    </div>
+                            <form className="FormTrueArrow" action="text" method="post">
+                                <img src="https://prints.ultracoloringpages.com/57a0107568dccfd45d63317c6fd00f5d.png" alt="" />
+                                <span>
+                                    <p>
+                                        "Não há ninguém que ame a dor por si só,
+                                        que a busque e queira tê-la,
+                                        simplesmente por ser dor..."
+                                    </p>
+                                </span>
+                            </form>
+                        </div>
+                    </J.ContainerForm>
                 </J.Cards>
                 <J.Cards>
-                    <div>
-                        <h4>AVALIAÇÃO</h4>
-                    </div>
+                    <J.ContainerForm>
+                        <div className="TituloOrange">
+                            <h4>AVALIAÇÃO</h4>
+                        </div>
 
-                    <div>
-                        <p>DESIRE</p>
+                        <div>
+                            <p className="SubTituloOrange">DESIRE</p>
 
-                        <form action="text" method="post">
-                            "Não há ninguém que ame a dor por si só,
-                            que a busque e queira tê-la,
-                            simplesmente por ser dor..."
-                        </form>
-                    </div>
+                            <form className="FormTrueArrow" action="text" method="post">
+                                <img src="https://prints.ultracoloringpages.com/57a0107568dccfd45d63317c6fd00f5d.png" alt="" />
+                                <span>
+                                    <p>
+                                        "Não há ninguém que ame a dor por si só,
+                                        que a busque e queira tê-la,
+                                        simplesmente por ser dor..."
+                                    </p>
+                                </span>
+                            </form>
+                        </div>
+                    </J.ContainerForm>
                 </J.Cards>
                 <J.Cards>
-                    <div>
-                        <h4>COMPRA</h4>
-                    </div>
+                    <J.ContainerForm>
+                        <div className="TituloBlu">
+                            <h4>COMPRA</h4>
+                        </div>
 
-                    <div>
-                        <p>RESEARCH</p>
+                        <div>
+                            <p className="SubTituloBlu">RESEARCH</p>
 
-                        <form action="text" method="post">
-                            "Não há ninguém que ame a dor por si só,
-                            que a busque e queira tê-la,
-                            simplesmente por ser dor..."
-                        </form>
-                    </div>
+                            <form className="FormNextArrow" action="text" method="post">
+                                <img src="https://smartlogistics.ng/wp-content/uploads/2020/12/pngwave-18.png" alt="" />
+                                <span>
+                                    <p>
+                                        "Não há ninguém que ame a dor por si só,
+                                        que a busque e queira tê-la,
+                                        simplesmente por ser dor..."
+                                    </p>
+                                </span>
+                            </form>
+                        </div>
+                    </J.ContainerForm>
                 </J.Cards>
                 <J.Cards>
-                    <div>
-                        <h4>PRIMEIRO VALOR</h4>
-                    </div>
+                    <J.ContainerForm>
+                        <div className="TituloYellow">
+                            <h4>PRIMEIRO VALOR</h4>
+                        </div>
 
-                    <div>
-                        <p>PRICING</p>
+                        <div>
+                            <p className="SubTituloYellow">PRICING</p>
 
-                        <form action="text" method="post">
-                            "Não há ninguém que ame a dor por si só,
-                            que a busque e queira tê-la,
-                            simplesmente por ser dor..."
-                        </form>
-                    </div>
+                            <form className="FormNextArrow" action="text" method="post">
+                                <img src="https://smartlogistics.ng/wp-content/uploads/2020/12/pngwave-18.png" alt="" />
+                                <span>
+                                    <p>
+                                        "Não há ninguém que ame a dor por si só,
+                                        que a busque e queira tê-la,
+                                        simplesmente por ser dor..."
+                                    </p>
+                                </span>
+                            </form>
+                        </div>
+                    </J.ContainerForm>
                 </J.Cards>
                 <J.Cards>
-                    <div>
-                        <h4>VALOR RECORRENTE</h4>
-                    </div>
+                    <J.ContainerForm>
+                        <div className="TituloOrange">
+                            <h4>VALOR RECORRENTE</h4>
+                        </div>
 
-                    <div>
-                        <p>PURCHASE</p>
+                        <div>
+                            <p className="SubTituloOrange">PURCHASE</p>
 
-                        <form action="text" method="post">
-                            "Não há ninguém que ame a dor por si só,
-                            que a busque e queira tê-la,
-                            simplesmente por ser dor..."
-                        </form>
-                    </div>
+                            <form className="FormNextArrow" action="text" method="post">
+                                <img src="https://smartlogistics.ng/wp-content/uploads/2020/12/pngwave-18.png" alt="" />
+                                <span>
+                                    <p>
+                                        "Não há ninguém que ame a dor por si só,
+                                        que a busque e queira tê-la,
+                                        simplesmente por ser dor..."
+                                    </p>
+                                </span>
+                            </form>
+                        </div>
+                    </J.ContainerForm>
                 </J.Cards>
             </J.CardsContainer>
         </J.Container>
