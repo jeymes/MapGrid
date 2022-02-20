@@ -1,10 +1,11 @@
-import Lines from "./Components/Lines";
+// import HeaderSide from "./Components/HeaderSide";
+import HeaderSide from "./Components/HeaderSide";
 
 function App() {
   return (
-    
+
     <>
-    <Lines/>
+      <HeaderSide/>
     </>
   );
 }

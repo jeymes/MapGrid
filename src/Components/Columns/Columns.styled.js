@@ -4,6 +4,7 @@ export const Container = styled.div`
 width: 100%;
 height: 100vh;
 display: flex;
+z-index: 10;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-end;
@@ -11,7 +12,7 @@ background-color: #45474F;
 font-family: sans-serif;
 `;
 export const CardsContainer = styled.div`
-width: 85%;
+width: 100%;
 height: 100%;
 display: flex;
 flex-wrap: wrap;

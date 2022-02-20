@@ -1,42 +1,25 @@
-/* eslint-disable import/no-anonymous-default-export */
 import React, { useState } from "react";
 import * as J from './Lines.styles';
-import Columns from "../Columns";
 
-export default () => {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default (props) => {
 
     const [logoActive, setLogoActive] = useState(false);
-
     return (
+        
+            <J.Lines id="Ctn-Colunas" onClick={(e) => setLogoActive(!logoActive)}>
+                <input type="button" value={props.lines} />
 
-        <J.Container>
-            <J.ContainerLines>
-                <J.Lines>
+                {logoActive && (
+                    <J.ContainerLogin>
+                        <J.Login>
+                            <img src="./img/logo.png" alt="logoMain" />
+                            <span>Jemerson Sousa</span>
+                        </J.Login>
+                    </J.ContainerLogin>
+                )}
 
-                    <J.Storytelling id="Ctn-Colunas" onClick={(e) => setLogoActive(!logoActive)}>
-                        <input type="button" value="Storytelling" />
-
-                        {logoActive && (
-                            <J.Login>
-                                <img src="./img/logo.png" alt="logoMain" />
-                                <span>Jemerson Sousa</span>
-                            </J.Login>
-                        )}
-
-                    </J.Storytelling>
-
-                </J.Lines>
-
-            </J.ContainerLines>
-
-            {logoActive && (
-                <J.ColumnsContainer>
-                    <Columns />
-                </J.ColumnsContainer>
-            )}
-
-
-
-        </J.Container>
+            </J.Lines>
+        
     )
 }
