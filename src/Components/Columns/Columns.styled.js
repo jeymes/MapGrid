@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 width: 100%;
-height: 100vh;
+height: 100%;
 display: flex;
 z-index: 10;
 flex-direction: column;
@@ -108,20 +108,69 @@ align-items: center;
         height: 204px;
         color: #001;
         border-left: 5px solid #00BFFF;
+        border-radius: 5px;
 
-        p{
+        div{
+
+            button{
+                color: white;
+                margin-left: 150px;
+                border: none;
+                border-radius: 5px;
+                position: relative;
+                top: 0px;
+                left: 1px;
+                z-index: 100;
+            
+            }
+            .salva{
+                background-color: green;
+                display: none;
+                
+            }
+
+            .apagar{
+                background-color: red;
+                
+            }
+        }
+
+        input{
             width: 95%;
-            height: 199px;
+            height: 200px;
             padding: 2px;
             position: relative;
-            bottom: 136px;
+            bottom: 145px;
+            z-index: 15;
+            border: none;
+            background-color: transparent;
+            color: white;
+            opacity: 50%;
+            text-align: start;
+            outline: none;
+
+            ::-webkit-input-placeholder{
+                color: white;
+                font-weight: bold; }      
+        }
+
+
+        p{
+            width: 96%;
+            height: 197px;
+            padding: 2px;
+            position: relative;
+            bottom: 358px;
             z-index: 5;
             border: none;
             background-color: #B0E0E6;
+            border: 1px solid #B0E0E6 ;
+            border-radius: 1px;
             opacity: 50%;
             color: black;
             text-align: start;
             font-weight: bold;
+
             
         }
 
