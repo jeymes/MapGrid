@@ -21,6 +21,14 @@ display: flex;
 width: 15%;
 height: 100vh;
 background-color: #45474F;
+
+@media(max-width: 800px){
+    width: 20%;
+    }
+    @media(max-width: 500px){
+    width: 22%;
+    margin-top: 20px;
+    }
 `;
 export const Lines = styled.div`
 display: flex;
@@ -43,6 +51,16 @@ align-items: center;
 
 img{
     width: 300px;
+
+    @media(max-width: 800px){
+        width:250px
+    }
+    @media(max-width: 600px){
+        width:200px
+    }
+    @media(max-width: 400px){
+        width:150px
+    }
 }
 
 `;

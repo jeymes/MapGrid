@@ -16,6 +16,16 @@ input{
     border: none;
     font-size: 15px;
     font-weight: 700;
+
+    @media(max-width: 800px){
+        font-size: 14px;
+    }
+    @media(max-width: 600px){
+        font-size: 13px;
+    }
+    @media(max-width: 400px){
+        font-size: 11px;
+    }
 }
 `;
 export const ContainerLogin = styled.div`
@@ -37,10 +47,18 @@ export const Login = styled.div`
     width: 35px;
     height: 35px;
     border-radius: 100px;
+    
+    @media(max-width:800px){
+        width: 30px;
+        height: 30px;
+    }
 }
 
 span{
     color: white;
     margin: 5px;
+    @media(max-width:800px){
+        font-size: 12px;
+    }
 }
 `;

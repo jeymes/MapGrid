@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 width: 100%;
+overflow: hidden;
 height: 100%;
 display: flex;
 z-index: 10;
@@ -20,26 +21,41 @@ flex-direction: row;
 justify-content: space-evenly;
 align-items: flex-start;
 background-color: transparent;
-/* border: 1px solid red; */
 `;
 export const Cards = styled.div`
     width: 170px;
     min-width: 100px;
     height: 50%;
-    min-height: 300px;
+    /* min-height: 300px; */
     text-align: center;
     display: flex;
     margin-top:5px;
-    /* border: 1px solid white; */
+   
+    @media(max-width: 1100px){
+        margin-inline: 20px;
+        width: 200px;
+    }
+    @media(max-width: 600px){
+        margin-inline: 1px;
+        width: 110px;
+        margin-top: 70px;
+        height: 180px;
+        border-left: 2px solid #00BFFF;
+            
+    }
 `;
 export const ContainerForm = styled.div`
-width: 100%;
+width: 170px;
 height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 
+@media(max-width: 600px){
+        width: 110px;
+        height: 180px;
+    }
 
 .TituloBlu{
         width: 100%;
@@ -69,16 +85,30 @@ align-items: center;
         font-weight: bold;
         text-shadow: 1px 1px #A9A9A9;
         font-size: 15px;
+
+        @media(max-width: 800px){
+        font-size: 12px;
+    }
+    @media(max-width: 600px){
+        font-size: 9px;
+        text-shadow: none;
+    }
         
     }
 
     div{
+        width: 100%;
+        
         .SubTituloBlu{
             background-color: #B0E0E6;
             text-shadow: 1px 1px #A9A9A9;
             font-weight: bold;
             color: #001;
             padding:5px;
+
+            @media(max-width: 600px){
+                text-shadow: none;
+            }
         }
         .SubTituloYellow{
             background-color: #F0E68C;
@@ -86,6 +116,10 @@ align-items: center;
             font-weight: bold;
             color: #001;
             padding:5px;
+
+            @media(max-width: 600px){
+                text-shadow: none;
+            }
         }
         .SubTituloOrange{
             background-color: #FFE4B5;
@@ -93,11 +127,24 @@ align-items: center;
             font-weight: bold;
             color: #001;
             padding:5px;
+
+            @media(max-width: 600px){
+                text-shadow: none;
+            }
+
         }
         P{
         color: white;
         font-size: 12px;
         border: 1px solid white;
+
+        @media(max-width: 800px){
+        font-size: 10px;
+    }
+    @media(max-width: 600px){
+        font-size: 7px;
+        text-shadow: none;
+    }
     }
     form{
         display: flex;
@@ -110,7 +157,12 @@ align-items: center;
         border-left: 5px solid #00BFFF;
         border-radius: 5px;
 
+        @media(max-width: 600px){
+            border-left: none;
+            }
+
         div{
+            width: 100%;
 
             button{
                 color: white;
@@ -121,7 +173,10 @@ align-items: center;
                 top: 0px;
                 left: 1px;
                 z-index: 100;
-            
+
+                @media(max-width: 600px){
+                    left: -60px;
+                }
             }
             .salva{
                 background-color: green;
@@ -152,6 +207,14 @@ align-items: center;
             ::-webkit-input-placeholder{
                 color: white;
                 font-weight: bold; }      
+
+                @media(max-width: 800px){
+        font-size: 12px;
+    }
+    @media(max-width: 600px){
+        font-size: 9px;
+        text-shadow: none;
+    }
         }
 
 
@@ -178,6 +241,10 @@ align-items: center;
     .FormArrowGraf{
         img{
             width: 136px;
+
+            @media(max-width: 600px){
+        width: 90px;
+    }
             
         }
     }
@@ -186,6 +253,10 @@ align-items: center;
     .FormTrueArrow, .FormNextArrow{
         img{
             width: 125px;
+
+            @media(max-width: 600px){
+        width: 80px;
+    }
             
         }
     }

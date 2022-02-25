@@ -11,8 +11,6 @@ export default () => {
 
     const [err, setErr] = useState(false);
     
-
-
     const [img, setimg] = useState(true);
 
 
